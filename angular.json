@@ -5,6 +5,11 @@
   "projects": {
     "@cloudedots/ngx-treeview": {
       "projectType": "library",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "projects/cloudedots/ngx-treeview",
       "sourceRoot": "projects/cloudedots/ngx-treeview/src",
       "prefix": "lib",
