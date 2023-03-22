@@ -8,13 +8,13 @@ import { DefaultNgxTreeviewEventParser, DownlineNgxTreeviewEventParser, NgxTreev
 })
 export class HomeComponent implements OnInit {
   @ViewChild('tree') tree: NgxTreeviewComponent;
-  itemTemplateView = true;
+  itemTemplateView = false;
 
   eventParser = new DefaultNgxTreeviewEventParser();
   config = NgxTreeviewConfig.create({
     hasAllCheckBox: true,
     hasFilter: true,
-    hasCollapseExpand: false,
+    hasCollapseExpand: true,
     decoupleChildFromParent: false,
     maxHeight: 1000
   });
