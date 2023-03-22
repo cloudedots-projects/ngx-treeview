@@ -2,7 +2,7 @@
 
 ## Snapshot
 
-![Snapshot](snapshot.png "Snapshot")
+![Snapshot](snapshot.png)
 
 ## Usage
 

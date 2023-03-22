@@ -1,6 +1,6 @@
 {
   "name": "ngx-treeview",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,16 @@
     "test": "ng test",
     "build:lib": "ng build @cloudedots/ngx-treeview"
   },
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudedots-projects/ngx-treeview.git"
+  },
+  "author": "Dhyey Moliya",
+  "bugs": {
+    "url": "https://github.com/cloudedots-projects/ngx-treeview/issues"
+  },
+  "homepage": "https://github.com/cloudedots-projects/ngx-treeview#readme",
   "dependencies": {
     "@angular/animations": "^15.2.0",
     "@angular/common": "^15.2.0",
