@@ -8,6 +8,10 @@
 
 Check `projects/demo` for usage.
 
+## Requirements
+
+- Bootstrap 4
+
 ## Installation
 
 ```sh
